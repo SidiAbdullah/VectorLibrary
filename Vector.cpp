@@ -2,10 +2,11 @@
 #include <vector>
 using namespace std;
 
-// 1. createVector
+// 1. CRUDS
+// A. createVector
 vector <int> vNumbers = {10, 20, 30, 40, 50};
 
-// 2. readVector()
+// B. readVector()
 void readVector(vector <int> &vNums){
   for (int i = 0; i < vNums.size(); i++){
     cout << vNums[i] << "\n";
@@ -18,7 +19,7 @@ void readVector(vector <int> &vNums, int from, int to){
   }
 }
 
-// 3. updateVector
+// C. updateVector
 void changeVectorElement(vector <int> &vNums, int index, int newValue){
   vNums[index] = newValue;
 }
@@ -47,7 +48,7 @@ void squareElements(vector <int> &vNums){
   }
 }
 
-// 4. deleteFromVector
+// D. deleteFromVector
 void deleteValueByIndex(vector <int> &vNums, int index){
   vector <int> vNewNums;
   for (int &num : vNums){
@@ -62,6 +63,30 @@ void deleteValue(vector <int> &vNums, int value){
   }
   vNums = vNewNums;
 }
+
+// E. Search or Find
+// Find
+// FindAll
+
+// ##########################
+// 2. Aggregate methods
+// sum
+// average
+// count
+// ##########################
+// 3. Sorting methods
+// sort
+// reverse
+// orderBy
+// orderByDesc
+// ##########################
+// 4. Filtering methods
+// where
+// ##########################
+// 5. Exploring methods
+// Contains
+// Exists
+
 
 int main(){
   // vector <int> vNumbers = {10, 20, 30, 40, 50};
@@ -78,12 +103,10 @@ int main(){
   // reverseVector(vNumbers);
   // readVector(vNumbers);
   // cout << "#########################" << endl;
-  squareElements(vNumbers);
-  readVector(vNumbers);
+  // squareElements(vNumbers);
+  // readVector(vNumbers);
   // cout << "#########################" << endl;
   // deleteValueByIndex(vNumbers, 0);
   // deleteValue(vNumbers, 30);
   // readVector(vNumbers);
 }
-
-// Sidi Abdullah Lemrabott 111
