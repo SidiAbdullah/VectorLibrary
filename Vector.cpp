@@ -87,6 +87,9 @@ void deleteValue(vector <int> &vNums, int value){
 // Contains
 // Exists
 
+// others shares logic
+// BitArray
+
 
 int main(){
   // vector <int> vNumbers = {10, 20, 30, 40, 50};
