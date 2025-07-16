@@ -88,7 +88,9 @@ void deleteValue(vector <int> &vNums, int value){
 // Exists
 
 // others shares logic
-// BitArray
+// BitArrayToString
+// BitArray <=> Byte[]
+// BitArray.{And, Or, Xor, Not)
 
 
 int main(){
